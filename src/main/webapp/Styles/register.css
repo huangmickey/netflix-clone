@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+body {
+    background-color: gray;
+
+}
+
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: auto;
+    width: 100%;
+
+}
+
+.sign-up-contents {
+    display: block;
+    background-color: #313131;
+
+}
+
+.test {
+
+    background-color: #ffa00a;
+}
+
+input {
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    font-family: "Noto Sans JP", cursive;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: #8f8888;
+    color: white;
+    font-weight: bold;
+}
+

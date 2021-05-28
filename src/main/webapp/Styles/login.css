@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Noto Sans JP", cursive;
+}
+
+.logo {
+    position: absolute;
+    font-family: "Bebas Neue", serif;
+    color: #E50914;
+    top: 15px;
+    left: 45px;
+    font-size: 45px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/netflix-image.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    max-height:900px;
+}
+
+.sign-in-text {
+    position: absolute;
+    font-size: 50px;
+    top: 130px;
+    font-weight: bold;
+}
+
+.sign-in-container {
+    background-color: rgba(0,0,0,0.85);
+    padding: 150px 90px 150px 90px;
+    height: 50%;
+}
+
+.sign-in-contents {
+
+}
+
+
+input{
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border-color: black;
+    font-family: "Noto Sans JP", cursive;
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    width: 300px;
+    background-color: #313131;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+    border-bottom-color: #ffa00a;
+}
+
+input[type=submit] {
+    margin-top: 40px;
+    background-color: #E50914;
+    width: 345px;
+}
+
+input[type=submit]:hover {
+    background-color: #5a0914;
+}
+
+input:focus ~ .floating-label-email,
+input:not(:focus):valid ~ .floating-label-email {
+    position: absolute;
+    bottom: 74.5%;
+    left: 42%;
+    font-size: 14px;
+}
+
+.floating-label-email {
+    position: absolute;
+    pointer-events: none;
+    color: #6c6c6c;
+    font-size: 20px;
+    font-family: "Noto Sans JP", cursive;
+    bottom: 71.5%;
+    left: 42%;
+    font-weight: bold;
+    transition: 0.2s ease all;
+}
+
+input:focus ~ .floating-label-password,
+input:not(:focus):valid ~ .floating-label-password {
+    position: absolute;
+    bottom: 65%;
+    left: 42%;
+    font-size: 14px;
+}
+
+.floating-label-password {
+    position: absolute;
+    pointer-events: none;
+    color: #6c6c6c;
+    font-size: 20px;
+    font-family: "Noto Sans JP", cursive;
+    bottom: 62%;
+    left: 42%;
+    font-weight: bold;
+    transition: 0.2s ease all;
+}
+
