@@ -72,14 +72,14 @@ input[type=submit]:hover {
 
 input:focus ~ .floating-label-email,
 input:not(:focus):valid ~ .floating-label-email {
-    position: absolute;
+    position: relative;
     bottom: 74.5%;
     left: 42%;
     font-size: 14px;
 }
 
 .floating-label-email {
-    position: absolute;
+    position: relative;
     pointer-events: none;
     color: #6c6c6c;
     font-size: 20px;
